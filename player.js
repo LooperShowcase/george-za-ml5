@@ -1,13 +1,13 @@
 class Player {
   constructor() {
-    this.size = 300;
+    this.size = 200;
     this.x = this.size;
     this.y = height - this.size;
     this.velocity = 0;
     this.gravity = 1.5;
   }
   jump() {
-    this.velocity = -20;
+    this.velocity = -30;
   }
 
   move() {
